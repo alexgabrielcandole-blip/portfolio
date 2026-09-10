@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alex Gabriel A. Candole Portfolio</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    section, .hero { scroll-margin-top: 72px; }
+    .section-divider { width: 56px; height: 3px; }
+  </style>
+<base target="_blank">
+</head>
+
+<body class="bg-body-tertiary">
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">My Portfolio</a>
+
+        <div class="d-flex align-items-center order-md-2">
+          <button id="themeToggle" type="button"
+                  class="btn btn-outline-light btn-sm me-2"
+                  aria-label="Toggle dark mode">
+            <i class="bi bi-moon-stars"></i>
+          </button>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#mainNav" aria-controls="mainNav"
+                  aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse order-md-1" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero bg-dark text-white text-center py-5">
+      <div class="container py-5">
+        <h1 class="display-4 fw-bold">Alex Gabriel A. Candole</h1>
+        <p class="lead mt-3 mb-4">
+          I am a Student from De La Salle-College of Saint Benilde, currently studying in the field of Information Systems.
+        </p>
+        <a href="#projects" class="btn btn-primary btn-lg me-2 mb-2">
+          View My Work
+        </a>
+        <a href="#contact" class="btn btn-outline-light btn-lg mb-2">
+          Get In Touch
+        </a>
+      </div>
+    </section>
+
+
+    <section id="about" class="py-5 bg-body">
+      <div class="container py-4">
+
+        <div class="text-center mb-5">
+          <h2 class="mb-2">About Me</h2>
+          <div class="section-divider bg-primary rounded mx-auto"></div>
+        </div>
+
+        <div class="row justify-content-center align-items-center g-5">
+<!--No Photo for the time being-->
+          <div class="col-md-4 col-lg-3 text-center">
+            <img src="https://placehold.co/240x240"
+                 class="img-fluid rounded-circle border border-4 shadow"
+                 alt="Portrait of Alex Gabriel A. Candole">
+          </div>
+
+          <div class="col-md-8 col-lg-7">
+            <h3 class="h4 mb-3">Hi, I'm Alex Gabriel</h3>
+
+            <p class="lead mb-3">
+              I am currently studying in the field of Information Systems, which tackles how technology, business processes,
+              and data come together to help organizations run more efficiently. I enjoy building practical software to match
+              recent projects include a Java-based login and registration system and a payroll management system with working database.
+            </p>
+            <p class="mb-4">
+              My interest in development started back in senior high, where I focused on ICT. I built a calculator in VB.net
+              and helped develop a Firebase-powered flashcard study website for our finals research paper,
+              among numerous other class projects and activities that shaped my early web development skills
+              a foundation I've continued to build on since.
+            </p>
+
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-mortarboard-fill fs-5 text-primary me-2"></i>
+                  <span>Information Systems student at Benilde</span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-code-slash fs-5 text-primary me-2"></i>
+                  <span>Java, Python, JavaScript, C#</span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-diagram-3-fill fs-5 text-primary me-2"></i>
+                  <span>Built SQLite-backed systems</span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-rocket-takeoff-fill fs-5 text-primary me-2"></i>
+                  <span>Focused on practical software</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="py-5">
+      <div class="container py-4">
+
+        <div class="text-center mb-5">
+          <h2 class="mb-2">Skills</h2>
+          <div class="section-divider bg-primary rounded mx-auto"></div>
+        </div>
+
+        <div class="row justify-content-center g-4">
+          <div class="col-md-4 text-center">
+            <h3 class="h6 text-uppercase text-body-secondary mb-3">Frontend</h3>
+            <span class="badge rounded-pill text-bg-primary fs-6 m-1">HTML</span>
+            <span class="badge rounded-pill text-bg-primary fs-6 m-1">CSS</span>
+            <span class="badge rounded-pill text-bg-primary fs-6 m-1">JavaScript</span>
+            <span class="badge rounded-pill text-bg-secondary fs-6 m-1">Bootstrap</span>
+          </div>
+          <div class="col-md-4 text-center">
+            <h3 class="h6 text-uppercase text-body-secondary mb-3">Languages</h3>
+            <span class="badge rounded-pill text-bg-success fs-6 m-1">Java</span>
+            <span class="badge rounded-pill text-bg-success fs-6 m-1">C#</span>
+            <span class="badge rounded-pill text-bg-success fs-6 m-1">Python</span>
+          </div>
+          <div class="col-md-4 text-center">
+            <h3 class="h6 text-uppercase text-body-secondary mb-3">Tools</h3>
+            <span class="badge rounded-pill text-bg-secondary fs-6 m-1">GitHub</span>
+            <span class="badge rounded-pill text-bg-info fs-6 m-1">SQLite</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="py-5 bg-body">
+      <div class="container py-4">
+
+        <div class="text-center mb-5">
+          <h2 class="mb-2">Projects &amp; Accomplishments</h2>
+          <div class="section-divider bg-primary rounded mx-auto"></div>
+        </div>
+
+        <div class="row g-4">
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <img src="https://placehold.co/600x400"
+                   class="card-img-top" alt="Screenshot of Project One">
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title h5">Project #1</h3>
+                <p class="card-text">
+                  A Ordering System using VB.Net (our senior Highschool Project) for the whole update see through comment section
+                </p>
+                <a href="https://www.facebook.com/share/v/1B1DYxNBiz/"
+                   target="_blank" rel="noopener"
+                   class="btn btn-primary mt-auto">View Project</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5">
+      <div class="container py-4">
+
+        <div class="text-center mb-5">
+          <h2 class="mb-2">Contact</h2>
+          <div class="section-divider bg-primary rounded mx-auto"></div>
+        </div>
+
+        <div class="row justify-content-center g-4">
+          <div class="col-md-7">
+
+            <form action="https://formspree.io/f/xbgjqwgz" method="POST">
+              <div class="mb-3">
+                <label for="contactName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="contactName"
+                       name="name" placeholder="Your name" required>
+              </div>
+              <div class="mb-3">
+                <label for="contactEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="contactEmail"
+                       name="email" placeholder="you@example.com" required>
+              </div>
+              <div class="mb-3">
+                <label for="contactMessage" class="form-label">Message</label>
+                <textarea class="form-control" id="contactMessage" name="message"
+                          rows="5" placeholder="Your message..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                <i class="bi bi-send me-1"></i> Send Message
+              </button>
+            </form>
+
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow-sm">
+              <div class="card-body text-center">
+                <h3 class="card-title h5">Find me online</h3>
+                <p class="card-text">
+                  Connect with me on LinkedIn.
+                </p>
+                <a href="https://www.linkedin.com/in/alex-undefined-51b4913a5/"
+                   target="_blank" rel="noopener"
+                   class="btn btn-outline-primary">
+                  <i class="bi bi-linkedin me-1"></i> LinkedIn
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <div class="mb-2">
+        <a href="https://www.linkedin.com/in/alex-undefined-51b4913a5/"
+           target="_blank" rel="noopener" class="text-white fs-4 mx-2"
+           aria-label="LinkedIn profile">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://github.com/alexgabrielcandole-blip"
+           target="_blank" rel="noopener" class="text-white fs-4 mx-2"
+           aria-label="GitHub profile">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="mailto:alexgabriel.candole@antipolo.benilde.edu.ph" class="text-white fs-4 mx-2"
+           aria-label="Email me">
+          <i class="bi bi-envelope-fill"></i>
+        </a>
+      </div>
+      <p class="mb-0 small">
+        &copy; <span id="year">2026</span> Alex Gabriel Portfolio. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    const root = document.documentElement;
+    const toggleBtn = document.getElementById('themeToggle');
+    const saved = localStorage.getItem('theme');
+
+    function applyTheme(theme) {
+      root.setAttribute('data-bs-theme', theme);
+      toggleBtn.innerHTML = theme === 'dark'
+        ? '<i class="bi bi-sun"></i>'
+        : '<i class="bi bi-moon-stars"></i>';
+    }
+
+    if (saved) applyTheme(saved);
+    else if (window.matchMedia('(prefers-color-scheme: dark)').matches) applyTheme('dark');
+
+    toggleBtn.addEventListener('click', () => {
+      const next = root.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+      localStorage.setItem('theme', next);
+    });
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
